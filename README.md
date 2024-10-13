@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Nombre: Gustavo Nahum Marquez Cruz 
+Codigo: U20240745
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instrucciones: 
+1- Clonar repositorio
+2- En la Terminal de ( App.js ejecutar npm start ) para correr el código
+3- Esto los llevara a http://localhost:3000/
 
-## Available Scripts
 
-In the project directory, you can run:
+Creación de Componentes:
+Agreguen una explicación breve en el código sobre el uso de componentes en React.
+Los componentes en React son funciones o clases que retornan elementos de la UI. Este es un componente funcional básico que renderiza un encabezado.
 
-### `npm start`
+Uso de JSX:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En el README, expliquen las diferencias entre JSX y HTML tradicionales................
+ JSX es una extensión de JavaScript que permite escribir código similar a HTML en componentes de React. A diferencia de HTML tradicional, en JSX puedes incluir lógica de JavaScript directamente, y los atributos tienen ligeras diferencias (como usar `className` en lugar de `class`).
+ 
+  Props en React:
+  
+En el README, expliquen brevemente cómo funcionan las props..............
+ Props en React Las props son objetos que permiten pasar datos entre componentes en React. Los componentes pueden recibir props como argumentos y usarlas para personalizar la UI.
+ 
+Flujo de Datos en React:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Expliquen en el README cómo funciona el flujo de datos unidireccional en React, con un ejemplo tomado de su proyecto. # Flujo de Datos en React.....................
+El flujo de datos unidireccional en React garantiza que los datos siempre se transmitan del componente padre al hijo. Esto mejora la claridad y la previsibilidad del estado en la aplicación. En nuestro proyecto, el componente `Greeting` recibe un nombre como prop del componente padre.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+QUE FUE LO QUE APRENDISTE DE LA GUIA 
 
-### `npm run build`
+Instalación y configuración del entorno
+Uso de create-react-app : Aprendiste a instalar y configurar un proyecto React utilizando una herramienta oficial que automatiza gran parte de la configuración inicial, permitiéndote empezar rápido sin preocuparte por la configuración manual de herramientas como Webpack o Babel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Creación de componentes
+Componentes Funcionales : Comprendiste que React permite dividir la interfaz en componentes reutilizables. Cada componente puede representar una parte específica de la UI (por ejemplo, un encabezado o un formulario). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+JSX (XML de JavaScript)
+Uso de JSX : React usa JSX para describir la interfaz de usuario en un formato similar al HTML, pero dentro de JavaScript. Aprendiste que JSX no es HTML puro, sino una sintaxis que se transforma en llamadas a funciones de JavaScript.
