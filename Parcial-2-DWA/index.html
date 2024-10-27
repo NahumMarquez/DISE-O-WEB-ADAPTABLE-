@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2 DWA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #660066;
+        }
+        .perfil-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado (Navbar) -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección de Presentación -->
+<div class="container my-4">
+    <div class="row">
+        <!-- Imagen de perfil circular y saludo en fondo gris -->
+        <div class="col-md-4 text-center bg-light p-3 rounded">
+            <img src="./photos/photo 1.jpeg" class="perfil-img mb-3" alt="Perfil">
+            <h3>¡Hola! Soy Gustavo Marquez</h3>
+            <p>Soy un estudiante de la universidad UNIVO que día a día está aprendiendo a cómo ser un Desarrollador de Software.</p>
+            <a href="#" class="btn btn-link">Conéctate conmigo</a>
+        </div>
+
+        <!-- Texto adicional encima del contenedor amarillo -->
+        <div class="col-md-8">
+            <p class="text-muted mb-1">La felicidad es un estado de ánimo... Ser feliz es una elección que podemos hacer cada día. Celebremos la vida, las amistades, las alegrías, los logros y las experiencias que nos hacen sentir vivos. Siempre habrá razones para ser feliz, solo debemos encontrarlas. <br><br>La justicia es el cimiento de una sociedad libre... La justicia es un valor fundamental que debemos cultivar en nuestras vidas y en nuestras comunidades. Debemos luchar por un mundo en el que todas las personas tengan igualdad de oportunidades y derechos, y en el que la ley se aplique sin excepción.</p>
+            <a href="#" class="btn btn-link">https://www.guatemalaglobal.com/</a>
+            <br><br>
+
+            <!-- Cita inspiradora con fondo amarillo y tamaño ajustado -->
+            <div class="col-md-5">
+                <img src="./photos/photo 2.jpeg" class="img-fluid" alt="Imagen de la cita">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Galería de Imágenes -->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./photos/photo 3.jpeg" class="img-fluid rounded" alt="Imagen 1">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./photos/photo 4.jpeg" class="img-fluid rounded" alt="Imagen 2">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./photos/photo 5.jpeg" class="img-fluid rounded" alt="Imagen 3">
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Descripciones -->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Docente</h5>
+                    <p class="card-text">El aprendizaje debe ir acompañado de diversión. Los buenos maestros son humanos, amigables y comprensivos; saben construir un ambiente agradable y estimulante en el salón y en la escuela; tienen confianza en la capacidad de todos sus alumnos y logran que todos ellos tengan éxito.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Desarrollador de Software</h5>
+                    <p class="card-text">Mi entusiasmo por el diseño web y gráfico es profundo. El rol principal es la creación y adaptación de programas informáticos, aunque obviamente se trata de una descripción algo simplista. Su ámbito de aplicación abarca una serie de aplicaciones, como programas, procesos, redes, actualizaciones de versión, parches, migraciones, DevOps y pruebas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Amor hacia perritos</h5>
+                    <p class="card-text">Mis perritos son una fuente constante de alegría en mi vida. Las mascotas pueden disminuir el estrés y la sensación de soledad, mejorar la salud del corazón e, incluso, ayudar a los niños con sus habilidades emocionales y sociales. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de Página -->
+<div class="bg-info text-white text-center py-2">
+    Sitio web/blog personal con Bootstrap 5.
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
